@@ -1,0 +1,51 @@
+
+*{
+    overflow: hidden !important;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    overflow: hidden !important;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+button{
+     position:absolute;
+   
+    width:100px;
+    height:100px;
+    background-color: cadetblue;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family:monospace;
+}
+
+.startgame{
+   display:flex;
+}
+
+#startbtn{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+}
+
+#impossiblebtn{
+    visibility:hidden;
+}
+#timer{
+
+    margin: 0;
+    text-align:center;
+    
+    font-weight:300;
+    font-size:larger;
+}
